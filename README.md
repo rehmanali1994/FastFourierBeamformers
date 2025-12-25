@@ -9,7 +9,7 @@ Fourier beamforming currently lacks a unifying framework that applies to all tra
 # Citing this Work
 If you use the code/algorithm for research, please cite the SPIE conference proceedings paper: 
 
-> Ali, R. "Open-Source Full-Waveform Ultrasound Computed Tomography Based on the Angular Spectrum Method Using Linear Arrays". Medical Imaging 2026: Ultrasonic Imaging and Tomography. SPIE, 2026.
+> Ali, R. "Fast Fourier Beamforming for Arbitrary Ultrasound Imaging Sequences Based on a K-Space Implementation of Reverse-Time Migration". Medical Imaging 2026: Ultrasonic Imaging and Tomography. SPIE, 2026.
 
 You can reference a static version of this code by its DOI number: [![DOI](https://zenodo.org/badge/1122896318.svg)](https://doi.org/10.5281/zenodo.18056898)
 
