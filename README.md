@@ -18,11 +18,7 @@ Functions for conventional delay-and-sum (DAS) beamformers are contained in [Fun
 
 **Please download the sample data (FieldII.mat) under the [releases](https://github.com/rehmanali1994/FastFourierBeamformers/releases) tab for this repository, and place that data in the ([Examples_FMC](https://github.com/rehmanali1994/FastFourierBeamformers/blob/main/Examples_FMC)) directory. Alternatively you can run [Examples_FMC/GenFullSynthDataPhantom.m](https://github.com/rehmanali1994/FastFourierBeamformers/blob/main/Examples_FMC/GenFullSynthDataPhantom.m) to recreate FieldII.mat—this will require the [Field II [7][8]](https://field-ii.dk/) simulation software.**
 
-Every script with a name formatted `recon_*.m` demonstrates a specific reconstruction technique. The multistatic FMC dataset `FieldII.mat` must be converted to a plane-wave dataset ([Examples_PlaneWave/ConvertFMC2PW.m](https://github.com/rehmanali1994/FastFourierBeamformers/blob/main/Examples_PlaneWave/ConvertFMC2PW.m)) or a focused-transmit dataset ([Examples_FocTx/ConvertFMC2FocTx.m](https://github.com/rehmanali1994/FastFourierBeamformers/blob/main/Examples_FocTx/ConvertFMC2FocTx.m)) before the scripts in the [Examples_PlaneWave](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Examples_PlaneWave) or [Examples_FocTx](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Examples_FocTx) will work.
-
-
-
-
+Every script with a name formatted `recon_*.m` demonstrates a specific reconstruction technique. The multistatic FMC dataset `FieldII.mat` must be converted to a plane-wave dataset (`FieldII_PW.mat` will be created by [Examples_PlaneWave/ConvertFMC2PW.m](https://github.com/rehmanali1994/FastFourierBeamformers/blob/main/Examples_PlaneWave/ConvertFMC2PW.m)) or a focused-transmit dataset (`FieldII_FocTx.mat` will be created by [Examples_FocTx/ConvertFMC2FocTx.m](https://github.com/rehmanali1994/FastFourierBeamformers/blob/main/Examples_FocTx/ConvertFMC2FocTx.m)) before the `recon_*.m` scripts in the [Examples_PlaneWave](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Examples_PlaneWave) or [Examples_FocTx](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Examples_FocTx) directories can be run.  Each conversion script applies transmit beamforming ([Functions_BeamformDAS/focus_fs_to_TxBeam.m](https://github.com/rehmanali1994/FastFourierBeamformers/blob/main/Functions_BeamformDAS/focus_fs_to_TxBeam.m)) to the multistatic FMC dataset to simulate the specific transmit sequence (plane wave or focused transmit).
 
 # Sample Results
 
@@ -49,10 +45,3 @@ Every script with a name formatted `recon_*.m` demonstrates a specific reconstru
 [8] Jensen, J. A., & Svendsen, N. B. (1992). Calculation of pressure fields from arbitrarily shaped, apodized, and excited ultrasound transducers. IEEE transactions on ultrasonics, ferroelectrics, and frequency control, 39(2), 262-267.
 
 [9] Bae, M. H., & Jeong, M. K. (2000). A study of synthetic-aperture imaging with virtual source elements in B-mode ultrasound imaging systems. IEEE transactions on ultrasonics, ferroelectrics, and frequency control, 47(6), 1510-1519.
-
-
-
-
-
-
-
