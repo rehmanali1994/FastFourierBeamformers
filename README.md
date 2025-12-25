@@ -7,14 +7,12 @@ The goal of the Fourier beamformer is to reconstruct the ultrasound image more q
 Fourier beamforming currently lacks a unifying framework that applies to all transmit sequences.  [Retrospective encoding for conventional ultrasound sequences (REFoCUS)](https://github.com/nbottenus/REFoCUS) [5] could be applied to any transmit sequence to recover multistatic data, which has a known Stolt mapping [3].  Alternatively, [Reverse-Time Migration (RTM)](https://github.com/rehmanali1994/FourierDomainBeamformer) generalizes to all transmit sequences without requiring an intermediate multistatic representation [6]; therefore, this repository also presents a generalized Stolt mapping based on a k-space representation of RTM.  Following the spirit of [Garcia's work on f-k migration [2]](https://github.com/rehmanali1994/Plane_Wave_Ultrasound_Stolt_F-K_Migration.github.io), my goal was to make both the previous Fourier beamformers and the RTM-based approach more broadly accessible.  Rather than assert that any particular Fourier beamforming method is optimal in all situations, this repository aims to provide an accessible implementation of each Fourier beamformer to clarify the connection between the mathematical theory and its practical implementation for purely educational purposes.  
 
 # Citing this Work
-If you use the code/algorithm for research, please cite the SPIE conference proceedings paper: 
+If you use the code/algorithm for research, please cite the SPIE conference proceedings paper (([poster](FastFourierBeamforming_Poster.pdf))): 
 
 > Ali, R. "Fast Fourier Beamforming for Arbitrary Ultrasound Imaging Sequences Based on a K-Space Implementation of Reverse-Time Migration". Medical Imaging 2026: Ultrasonic Imaging and Tomography. SPIE, 2026.
 
 You can reference a static version of this code by its DOI number: [![DOI](https://zenodo.org/badge/1122896318.svg)](https://doi.org/10.5281/zenodo.18056898)
 
-See the SPIE poster below 
-![](FastFourierBeamforming_Poster.pdf)
 
 # Code and Sample Datasets
 Functions for conventional delay-and-sum (DAS) beamformers are contained in [Functions_BeamformDAS](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Functions_BeamformDAS), and functions for Fourier beamforming are contained in [Functions_BeamformFastFourier](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Functions_BeamformFastFourier).  Example scripts for multistatic synthetic aperture ([Examples_FMC](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Examples_FMC)), plane-wave ([Examples_PlaneWave](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Examples_PlaneWave)), and focused-transmit ([Examples_FocTx](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Examples_FocTx)) imaging are provided.  
