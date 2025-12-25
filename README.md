@@ -8,7 +8,7 @@ Fourier beamforming currently lacks a unifying framework that applies to all tra
 
 # Sample Results
 
-Field II [7][8] simulations of radio-frequency channel data for multistatic synthetic aperture, plane-wave, and walking-aperture focused transmit sequences with the same acquisition parameter described in [6] were used to compare delay-and-sum (DAS) beamforming [9], the previous Fourier beamformers [1]-[4], a multistatic FMC Stolt migration [3] after REFoCUS [5], and the RTM-based Fourier beamformer proposed in this work.  For plane-wave imaging we found that [1] generally provided better resolution and contrast than [2] and became the Fourier beamformer used for comparison.  For focused transmit imaging, [4] became the basis for comparison.  
+[Field II [7][8]](https://field-ii.dk/) simulations of radio-frequency channel data for multistatic synthetic aperture, plane-wave, and walking-aperture focused transmit sequences with the same acquisition parameter described in [6] were used to compare delay-and-sum (DAS) beamforming [9], the previous Fourier beamformers [1]-[4], a multistatic FMC Stolt migration [3] after REFoCUS [5], and the RTM-based Fourier beamformer proposed in this work.  For plane-wave imaging we found that [1] generally provided better resolution and contrast than [2] and became the Fourier beamformer used for comparison.  For focused transmit imaging, [4] became the basis for comparison.  
 
 ![](GitHubResults.png)
 
