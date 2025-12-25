@@ -12,13 +12,21 @@ Fourier beamforming currently lacks a unifying framework that applies to all tra
 # References
 
 [1] Cheng, J., & Lu, J. Y. (2006). Extended high-frame rate imaging method with limited-diffraction beams. IEEE transactions on ultrasonics, ferroelectrics, and frequency control, 53(5), 880-899.
+
 [2] Garcia, D., Le Tarnec, L., Muth, S., Montagnon, E., Porée, J., & Cloutier, G. (2013). Stolt's fk migration for plane wave ultrasound imaging. IEEE transactions on ultrasonics, ferroelectrics, and frequency control, 60(9), 1853-1867.
+
 [3] Hunter, A. J., Drinkwater, B. W., & Wilcox, P. D. (2008). The wavenumber algorithm for full-matrix imaging using an ultrasonic array. IEEE transactions on ultrasonics, ferroelectrics, and frequency control, 55(11), 2450-2462.
+
 [4] Jiang, C., Liu, C., Zhan, Y., & Ta, D. (2022). The spectrum-beamformer for conventional B-mode ultrasound imaging system: principle, validation, and robustness. Ultrasonic Imaging, 44(2-3), 59-76.
+
 [5] Ali, R., Herickhoff, C. D., Hyun, D., Dahl, J. J., & Bottenus, N. (2019). Extending retrospective encoding for robust recovery of the multistatic data set. IEEE transactions on ultrasonics, ferroelectrics, and frequency control, 67(5), 943-956.
+
 [6] Ali, R. (2021). Fourier-based synthetic-aperture imaging for arbitrary transmissions by cross-correlation of transmitted and received wave-fields. Ultrasonic imaging, 43(5), 282-294.
+
 [7] Jensen, J. A. (1996). Field: A program for simulating ultrasound systems. In 10TH NORDICBALTIC CONFERENCE ON BIOMEDICAL IMAGING, VOL. 4, SUPPLEMENT 1, PART 1: 351--353.
+
 [8] Jensen, J. A., & Svendsen, N. B. (1992). Calculation of pressure fields from arbitrarily shaped, apodized, and excited ultrasound transducers. IEEE transactions on ultrasonics, ferroelectrics, and frequency control, 39(2), 262-267.
+
 [9] Bae, M. H., & Jeong, M. K. (2000). A study of synthetic-aperture imaging with virtual source elements in B-mode ultrasound imaging systems. IEEE transactions on ultrasonics, ferroelectrics, and frequency control, 47(6), 1510-1519.
 
 
