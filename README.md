@@ -13,7 +13,8 @@ If you use the code/algorithm for research, please cite the SPIE conference proc
 
 You can reference a static version of this code by its DOI number: [![DOI](https://zenodo.org/badge/1122896318.svg)](https://doi.org/10.5281/zenodo.18056898)
 
-See the SPIE poster below ![](FastFourierBeamforming_Poster.pdf)
+See the SPIE poster below 
+![](FastFourierBeamforming_Poster.pdf)
 
 # Code and Sample Datasets
 Functions for conventional delay-and-sum (DAS) beamformers are contained in [Functions_BeamformDAS](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Functions_BeamformDAS), and functions for Fourier beamforming are contained in [Functions_BeamformFastFourier](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Functions_BeamformFastFourier).  Example scripts for multistatic synthetic aperture ([Examples_FMC](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Examples_FMC)), plane-wave ([Examples_PlaneWave](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Examples_PlaneWave)), and focused-transmit ([Examples_FocTx](https://github.com/rehmanali1994/FastFourierBeamformers/tree/main/Examples_FocTx)) imaging are provided.  
